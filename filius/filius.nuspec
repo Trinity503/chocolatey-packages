@@ -42,19 +42,14 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- If there is a license Url available, it is required for the community feed -->
     <licenseUrl>https://www.lernsoftware-filius.de/Herunterladen</licenseUrl>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <!--<requireLicenseAcceptance>true</requireLicenseAcceptance>-->
     <projectSourceUrl>https://gitlab.com/filius1/filius</projectSourceUrl>
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
     <!--<mailingListUrl></mailingListUrl>-->
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>filius</tags>
     <summary>Teaching networks.</summary>
-    <description>FILIUS was initially developed by the University Siegen, Germany, to provide a tool
-for enhancing computer science lessons on networks. The main target group are 
-students of secondary schools but with its wide range of applications it can be 
-interesting for learners of any age. The software especially promotes explorative 
-learning and is very helpful to teach students about the internet and its various 
-applications.</description>
+    <description>FILIUS was initially developed by the University Siegen, Germany, to provide a tool for enhancing computer science lessons on networks. The main target group are students of secondary schools but with its wide range of applications it can be interesting for learners of any age. The software especially promotes explorative learning and is very helpful to teach students about the internet and its various applications.</description>
     <releaseNotes>https://gitlab.com/filius1/filius/-/blob/master/Changelog.md</releaseNotes>
 	<packageSourceUrl>https://github.com/erhardma/chocolatey-packages/tree/main/filius</packageSourceUrl>
     <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
