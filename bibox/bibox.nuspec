@@ -44,12 +44,12 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
     <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
-    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <docsUrl>https://www.bibox.schule/hilfe/</docsUrl>
     <!--<mailingListUrl></mailingListUrl>-->
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>bibox schulbuch unterrichtssystem</tags>
     <summary>BiBox – Das digitale Unterrichtssystem</summary>
-    <description>Entdecken Sie, wie einfach und effizient die Vorbereitung, Organisation und Durchführung Ihres Unterrichts sein kann! Mit der BiBox für Lehrerinnen und Lehrer haben Sie Ihr digitales Schulbuch sowie alle Zusatzmaterialien immer dabei.</description>
+    <description>The BiBox is the software used by the german "westermann Verlag" to provide the digital version of the schoolbooks. German Description: Entdecken Sie, wie einfach und effizient die Vorbereitung, Organisation und Durchführung Ihres Unterrichts sein kann! Mit der BiBox für Lehrerinnen und Lehrer haben Sie Ihr digitales Schulbuch sowie alle Zusatzmaterialien immer dabei.</description>
     <releaseNotes>https://www.bibox.schule/versionsverlauf/</releaseNotes>
     <!-- =============================== -->      
 
