@@ -29,7 +29,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <version>2.2.0.8</version>
     <!-- <packageSourceUrl>Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed</packageSourceUrl>-->
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
-    <!--<owners>__REPLACE_YOUR_NAME__</owners>-->
+    <owners>Trinity503</owners>
     <!-- ============================== -->
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
@@ -38,19 +38,19 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <authors>Friedrich Folkmann</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>http://friedrich-folkmann.de/papdesigner/Hauptseite.html</projectUrl>
-    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/papdesigner.png</iconUrl>-->
+    <iconUrl>http://friedrich-folkmann.de/papdesigner/resources/920x-32bit-x.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- If there is a license Url available, it is required for the community feed -->
-    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
-    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <licenseUrl>http://friedrich-folkmann.de/papdesigner/Lizenzabkommen.html</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/Trinity503/chocolatey-packages/tree/main/papdesigner</projectSourceUrl>
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
     <!--<mailingListUrl></mailingListUrl>-->
     <!--<bugTrackerUrl></bugTrackerUrl>-->
-    <tags>papdesigner Programmablaufplan</tags>
+    <tags>papdesigner Programmablaufplan flowchart</tags>
     <summary>papdesigner Programmablaufplan</summary>
-    <description>papdesigner Programmablaufplan</description>
-    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+    <description>Papdesigner is a program to create flowcharts for programming.</description>
+    <releaseNotes>http://friedrich-folkmann.de/papdesigner/Versionshinweise.html</releaseNotes>
     <!-- =============================== -->      
 
     <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
