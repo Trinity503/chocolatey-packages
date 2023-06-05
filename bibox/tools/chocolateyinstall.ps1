@@ -1,8 +1,6 @@
 ﻿
 $ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = ''
-$url64      = ''
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -14,8 +12,6 @@ $packageArgs = @{
 
   softwareName  = 'bibox'
 
-  checksum      = ''
-  checksumType  = ''
   checksum64    = '78E4FBDA66376CD529E83F6667D65A94C6490F2C189D340AC42D5D29261242E2'
   checksumType64= 'sha256'
 

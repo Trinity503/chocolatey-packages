@@ -35,24 +35,24 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
     <title>notenmanager-heimversion (Install)</title>
-    <authors>Stephan Bartunek</authors>
+    <authors>besoft Stephan Bartunek</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://www.notenmanager.net/heimversion/</projectUrl>
     <!-- There are a number of CDN Services that can be used for hosting the Icon for a package. More information can be found here: https://docs.chocolatey.org/en-us/create/create-packages#package-icon-guidelines -->
     <!-- Here is an example using Githack -->
-    <iconUrl>https://www.notenmanager.net/wp-content/uploads/lgo-nm-wordpress-homepage.svg</iconUrl>
+    <!--<iconUrl>https://www.notenmanager.net/wp-content/uploads/lgo-nm-wordpress-homepage.png</iconUrl>-->
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- If there is a license Url available, it is required for the community feed -->
     <licenseUrl>https://www.notenmanager.net/heimversion/lizenzmodelle/</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <projectSourceUrl>https://github.com/Trinity503/chocolatey-packages/tree/main/notenmanager-heimversion</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Trinity503/chocolatey-packages/tree/main/notenmanager-heimversion</packageSourceUrl>
     <docsUrl>http://hvhilfe.notenmanager.net/</docsUrl>
     <!--<mailingListUrl></mailingListUrl>-->
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>notenmanager heimversion</tags>
     <summary>Software to store marks of pupils and sync with Notenmanager Schulversion.</summary>
     <description>Software to store marks of pupils and sync with Notenmanager Schulversion.</description>
-    <!-- <releaseNotes></releaseNotes> -->
+    <releaseNotes>https://forum.notenmanager.net/forumdisplay.php?fid=33</releaseNotes>
     <!-- =============================== -->
 
     <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->

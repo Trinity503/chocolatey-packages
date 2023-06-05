@@ -38,7 +38,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <authors>Untis GmbH</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://untis.at/version/2023</projectUrl>
-    <iconUrl>https://www.untis.at/fileadmin/user_upload/Assets/logos/untis.svg</iconUrl>
+    <!--<iconUrl>https://www.untis.at/fileadmin/user_upload/Assets/logos/untis.svg</iconUrl>-->
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- If there is a license Url available, it is required for the community feed -->
     <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>

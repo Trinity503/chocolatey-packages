@@ -38,12 +38,12 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <authors>Friedrich Folkmann</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>http://friedrich-folkmann.de/papdesigner/Hauptseite.html</projectUrl>
-    <iconUrl>http://friedrich-folkmann.de/papdesigner/resources/920x-32bit-x.png</iconUrl>
+    <!--<iconUrl>http://friedrich-folkmann.de/papdesigner/resources/920x-32bit-x.png</iconUrl>-->
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- If there is a license Url available, it is required for the community feed -->
     <licenseUrl>http://friedrich-folkmann.de/papdesigner/Lizenzabkommen.html</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <projectSourceUrl>https://github.com/Trinity503/chocolatey-packages/tree/main/papdesigner</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Trinity503/chocolatey-packages/tree/main/papdesigner</packageSourceUrl>
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
     <!--<mailingListUrl></mailingListUrl>-->
     <!--<bugTrackerUrl></bugTrackerUrl>-->
@@ -62,6 +62,9 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
       <dependency id="" />
       <dependency id="chocolatey-core.extension" version="1.1.0" />
     </dependencies>-->
+	<dependencies>
+      <dependency id="chocolatey-core.extension" version="1.4.0" />
+    </dependencies>
     <!-- chocolatey-core.extension - https://chocolatey.org/packages/chocolatey-core.extension
          - You want to use Get-UninstallRegistryKey on less than 0.9.10 (in chocolateyUninstall.ps1)
          - You want to use Get-PackageParameters and on less than 0.11.0
