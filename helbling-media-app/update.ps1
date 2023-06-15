@@ -37,18 +37,19 @@ function global:au_GetLatest {
   $url = 'https://mediaapp.helbling.com/downloads/OU34DJKB/latest/HELBLING%20Media%20App%20Setup.exe'
 
   #$version  = ($url -split '/' | select -Last 1 -Skip 1)
-  return @{ Version = $version; URL64 = $url; checksum64 = $Checksum64; ChecksumType64 = 'md5'   } 
+  return @{ Version = $version; URL64 = $url; 
+  #checksum64 = $Checksum64; ChecksumType64 = 'md5'   
+  } 
   
-  #$releaseNotesUrl = "$domain/LibreCAD/LibreCAD/releases/tag/" + $version
 
   @{
     URL = $url;
     Version = $version
-    Checksum64 = $Checksum64
-    ChecksumType64 = 'md5'
+    #Checksum64 = $Checksum64
+    #ChecksumType64 = 'md5'
   #  ReleaseNotes = $releaseNotesUrl
   }
 
 }
 
-update -ChecksumFor none
+update -ChecksumFor 64

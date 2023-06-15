@@ -1,0 +1,4 @@
+﻿##helbling-media-app
+##description
+The HELBLING Media App enables quick access to multimedia for HELBLING publications such as course books, readers, etc. and is therefore the perfect support for learners and teachers. Titles with content in the HELBLING Media App can be recognised at a glance as they feature an app symbol on the cover.
+Die HELBLING Media App ermöglicht den schnellen Zugriff auf Medien zu Lehrwerken, Büchern, Lektüren und Notenausgaben von HELBLING und ist damit die perfekte Unterstützung für Lernende und Unterrichtende. Titel mit Inhalten in der HELBLING Media App sind auf dem Cover mit einem App-Symbol gekennzeichnet.
