@@ -26,7 +26,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>2.4.4</version>
+    <version>2.4.6</version>
     <packageSourceUrl>https://github.com/Trinity503/chocolatey-packages/tree/main/bibox</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>Trinity503</owners>
@@ -49,8 +49,9 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>bibox schulbuch unterrichtssystem</tags>
     <summary>BiBox – Das digitale Unterrichtssystem</summary>
-    <description>The BiBox is the software used by the german "westermann Verlag" to provide the digital version of the schoolbooks. German Description: Entdecken Sie, wie einfach und effizient die Vorbereitung, Organisation und Durchführung Ihres Unterrichts sein kann! Mit der BiBox für Lehrerinnen und Lehrer haben Sie Ihr digitales Schulbuch sowie alle Zusatzmaterialien immer dabei.</description>
-    <releaseNotes>https://www.bibox.schule/versionsverlauf/</releaseNotes>
+    <description><![CDATA[The BiBox is the software used by the german "westermann Verlag" to provide the digital version of the schoolbooks. German Description: Entdecken Sie, wie einfach und effizient die Vorbereitung, Organisation und Durchführung Ihres Unterrichts sein kann! Mit der BiBox für Lehrerinnen und Lehrer haben Sie Ihr digitales Schulbuch sowie alle Zusatzmaterialien immer dabei.
+]]></description>
+    <releaseNotes></releaseNotes>
     <!-- =============================== -->      
 
     <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->

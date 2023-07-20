@@ -45,13 +45,13 @@ function global:au_SearchReplace {
 function global:au_GetLatest {
 
  
-$download_page = Invoke-WebRequest -Uri $releases\latest.yml -OutFile latest.yml
+$download_page = Invoke-WebRequest -Uri $releases\latest-msi-64.yml -OutFile latest.yml
 $file = Get-Content latest.yml
 $version= Select-String -Pattern "version: (.*)" -Path latest.yml
 $version = $version.Matches.groups[1].value
 $version
 $url= Select-String -Pattern "url: (.*)" -Path latest.yml
-$url = $releases + "/" + [uri]::EscapeDataString( $url.Matches.groups[1].value)
+$url = $releases + "" + [uri]::EscapeDataString( $url.Matches.groups[1].value)
 $url
 $sha512= Select-String -Pattern "sha512: (.*)" -Path latest.yml
 $sha512 = $sha512.Matches.groups[1].value
