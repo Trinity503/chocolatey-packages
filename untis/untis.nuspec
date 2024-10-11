@@ -26,7 +26,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>2023.6.0</version>
+    <version>2025.3.1</version>
     <packageSourceUrl>https://github.com/Trinity503/chocolatey-packages/tree/main/untis</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>Trinity503</owners>
@@ -37,7 +37,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <title>untis (Install)</title>
     <authors>Untis GmbH</authors>
     <!-- projectUrl is required for the community feed -->
-    <projectUrl>https://untis.at/version/2023</projectUrl>
+    <projectUrl>https://untis.at/version/2025</projectUrl>
     <!--<iconUrl>https://www.untis.at/fileadmin/user_upload/Assets/logos/untis.svg</iconUrl>-->
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- If there is a license Url available, it is required for the community feed -->
@@ -49,7 +49,8 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>untis school timetable</tags>
     <summary>calculate timetables for schools</summary>
-    <description>Untis is your centre for planning, taking decisions and having all necessary information always at your fingertips. Untis is the comprehensive solution for timetable planning, lessons and school communication.</description>
+    <description><![CDATA[Untis is your centre for planning, taking decisions and having all necessary information always at your fingertips. Untis is the comprehensive solution for timetable planning, lessons and school communication.
+]]></description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
     <!-- =============================== -->      
 
